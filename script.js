@@ -36,10 +36,7 @@ TOOLS & TECHNOLOGIES
 • Databases: (MySQL, SQLite)
 • Additional software: Git,  BlueJ , CodeBlocks
 
-ACHIEVEMENTS & HONORS
-• DevOps Member
-• Student Assistant (C#)
-• House Committee Leader (Faranani Residence)
+
 
 PROFESSIONAL EXPERIENCE
 
