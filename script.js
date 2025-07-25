@@ -4,12 +4,12 @@ class TypeWriter {
   
   // CV Download Functionality
 function generateAndDownloadCV() {
-  const cvContent = `MASHABANE TEBOGO NELSON
-060 939 7230 | mashabanetebogo812@gmail.com
-LinkedIn Profile: www.linkedin.com/in/tebogo-nelson-62a324275
-GitHub: https://github.com/Tebogo17
-Personal Website: https://tebogonelson.vercel.app/
-City: 87, Eastbank Avenue, Alexandra, Sandton, Johannesburg
+  const cvContent = `NKOSENHLE LUNGISANI SIYANDA NYEMBE
+060 939 7230 |syandalungisani31@gmail.com
+LinkedIn Profile: www.linkedin.com/in/Syanda-Lungisani
+GitHub: https://github.com/syandalungisani31-gif
+Personal Website: https://siyandankosi.vercel.app/
+City: Kleinfontein,Ladysmith, 3370
 
 ASPIRING SOFTWARE DEVELOPER
 
@@ -21,10 +21,7 @@ Tertiary Qualifications
 Bachelor of Sciences in Information Technology – North West University – Present
 Expected Graduation – 2026
 
-Certifications
-Microsoft Azure - 2025
-AWS Cloud Computing 2025
-FNB App Academy 2025
+
 
 Short Courses
 Work Readiness Program 2025
@@ -34,10 +31,10 @@ Time-Management | Problem solving | Leadership | Team Collaboration | Organized 
 
 TOOLS & TECHNOLOGIES
 • Languages: JavaScript, Java, C#, HTML5, CSS3, SQL
-• Frameworks: (React, Node.js, Git)
+• Frameworks: Git
 • Software Tools: Visual Studio, Visual Studio Code, Oracle
 • Databases: (MySQL, SQLite)
-• Additional software: Git, Android Studio, BlueJ
+• Additional software: Git,  BlueJ , CodeBlocks
 
 ACHIEVEMENTS & HONORS
 • DevOps Member
@@ -46,10 +43,8 @@ ACHIEVEMENTS & HONORS
 
 PROFESSIONAL EXPERIENCE
 
-Faranani Residence (NWU) | Vanderbijlpark                                    SEP 2023 – OCT 2024
-Social & Liaison officer with MPRO
-Plans, coordinates, and executes recruitment related activities in collaboration with the SCC.
-Coordinates the residence's participation in the NWU's annual Campus Open Day.
+NWU | Vanderbijlpark                                    JAN 2023 – OCT 2024
+Sinior First Football Team Captain
 
 ▪ MPRO Recruitment Drive:
 Enhanced student engagement and improved residence applications through strategic campaigns and events.
@@ -69,24 +64,18 @@ Developed cross-platform apps with Xamarin, emphasizing performance, clean UI, a
 
 REFERENCES
 
-Mrs Monyadiwe Ramatlotlo
-Finance Department (NWU), Vanderbijlpark
-078 496 6879, Monyadiwe.Ramatlotlo@nwu.ac.za
+Mr Thomas Thema
+Head of Sport (NWU), Vanderbijlpark
+0603231800, Thomas.Thema@nwu.ac.za
 
-Mr Jan Kruger
-Lecturer (NWU), Vanderbijlpark
-083 733 2485, Jan.Kruger@nwu.ac.za
 
-Ms Bongisa Dyosoba
-Lecturer (NWU), Vanderbijlpark
-+27169103292, Bongisa.Dyosoba@nwu.ac.za`
 
   // Create and download the file
   const blob = new Blob([cvContent], { type: "text/plain" })
   const url = window.URL.createObjectURL(blob)
   const a = document.createElement("a")
   a.href = url
-  a.download = "Tebogo_Nelson_Mashabane_CV.txt"
+  a.download = "NKOSENHLELUNGISANISIYANDA_NYEMBE_CV.txt"
   document.body.appendChild(a)
   a.click()
   document.body.removeChild(a)
@@ -362,7 +351,7 @@ document.querySelector('.download-cv').addEventListener('click', function(e) {
     // Create a temporary link element
     const link = document.createElement('a');
     link.href = '#'; // Replace with actual CV file path
-    link.download = 'Mashabane_Tebogo_Nelson_CV.pdf';
+    link.download = 'NKOSENHLELUNGISANISIYANDA_NYEMBE_CV.pdf';
     
     // Simulate download
     alert('CV download would start here. Please add your actual CV file path.');
