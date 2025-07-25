@@ -46,21 +46,6 @@ PROFESSIONAL EXPERIENCE
 NWU | Vanderbijlpark                                    JAN 2023 – OCT 2024
 Sinior First Football Team Captain
 
-▪ MPRO Recruitment Drive:
-Enhanced student engagement and improved residence applications through strategic campaigns and events.
-
-▪ Campus Open Day Coordination:
-Effectively coordinated Faranani Residence's participation, enhancing visibility and strengthening prospective student relations.
-
-North West University | Vanderbijlpark                                        FEB 2025 – JUN 2025
-Student Assistant (C#)
-Provided academic support in C# programming, assisting students with practical coding exercises, debugging, and understanding core software development concepts.
-
-▪ Web Development:
-Developed interactive web applications with robust validation and dynamic controls to ensure data accuracy and enhance user experience.
-
-▪ Mobile App Development:
-Developed cross-platform apps with Xamarin, emphasizing performance, clean UI, and API integration for enhanced usability.
 
 REFERENCES
 
