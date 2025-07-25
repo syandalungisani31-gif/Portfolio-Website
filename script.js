@@ -57,7 +57,7 @@ Head of Sport (NWU), Vanderbijlpark
   const url = window.URL.createObjectURL(blob)
   const a = document.createElement("a")
   a.href = url
-  a.download = "NKOSENHLELUNGISANISIYANDA_NYEMBE_CV.txt"
+  a.download = "NKOSENHLE_LS_NYEMBE_CV.txt"
   document.body.appendChild(a)
   a.click()
   document.body.removeChild(a)
