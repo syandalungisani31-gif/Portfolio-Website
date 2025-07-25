@@ -5,7 +5,7 @@ class TypeWriter {
   // CV Download Functionality
 function generateAndDownloadCV() {
   const cvContent = `NKOSENHLE LUNGISANI SIYANDA NYEMBE
-060 939 7230 |syandalungisani31@gmail.com
+0836349065 |syandalungisani31@gmail.com
 LinkedIn Profile: www.linkedin.com/in/Syanda-Lungisani
 GitHub: https://github.com/syandalungisani31-gif
 Personal Website: https://siyandankosi.vercel.app/
